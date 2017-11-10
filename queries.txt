@@ -12,7 +12,7 @@ WHERE memory_gb > 1;
 
 SELECT cpu_name AS "Name"
 FROM cpu
-WHERE number_of_cores=1
+WHERE number_of_cores=2
 ORDER BY cpu_id
 LIMIT 1;
 
@@ -60,7 +60,7 @@ WHERE cpu_manufacturer.manufacturer_name='TSMC'
 GROUP BY cpu_manufacturer.manufacturer_name;
 
 
-	3.1. Показывает экран, который чаще остальных используется в телефонах Apple. 
+	3.1. Показывает id экрана, который чаще остальных используется в телефонах Apple. 
 	Если таких несколько - показывает все в порядке убывания id номеров
 
 
